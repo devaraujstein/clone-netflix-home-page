@@ -1,0 +1,52 @@
+:root {
+    --rednt: #E50914;
+    --blacknt: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Base Elements */
+body {
+    background: var(--blacknt);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--rednt);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Main Movie */
+
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/cover-rick-and-morty.jpg');
+    
+    height: 400px;
+    background-size: cover;
+}
+
